@@ -12,4 +12,5 @@ constraint forall([sum([cost[p,r]*solution[p] | p in Product]) <= limit[r] | r i
 
 solve maximize total_profit;
 
-output ["\(p): \(solution[p])\n" | p in Product] ++ ["total profit: \(total_profit)"];
+output ["\(p): \(solution[p])\n" | p in Product] ++ ["total profit: \(total_profit)\n"] ++
+        ["\(r): \(sum([solution[p]*cost[p,r] | p in Product]))/\(limit[r]) " | r in Resource];
