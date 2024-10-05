@@ -1,0 +1,9 @@
+Product = {AXE, SWORD, SPEAR, KATANA, CLUB};
+profit = [11, 18, 15, 17, 11];
+Resource = {ROCKS, WOOD, BLACKSMITHS, CARPENTERS};
+limit = [5000, 7500, 4000, 3000];
+cost = [|15, 0, 10, 10
+        |20, 0, 20, 00
+        |15, 5, 10, 10
+        |5, 10, 9, 15
+        |1, 25, 1, 25 |];

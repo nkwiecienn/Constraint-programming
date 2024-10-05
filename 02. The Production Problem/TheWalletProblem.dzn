@@ -1,0 +1,8 @@
+Product = {FENG, LIU, ZHAO, JIAN};
+profit = [6, 10, 8, 40];
+Resource = {MONEY, SOLDIERS_F, SOLDIERS_L, SOLDIERS_Z, SOLDIERS_J};
+limit = [10000, 1000, 400, 500, 150];
+cost = [| 13, 1, 0, 0, 0 
+        | 21, 0, 1, 0, 0  
+        | 17, 0, 0, 1, 0  
+        | 100, 0, 0, 0, 1 |];
