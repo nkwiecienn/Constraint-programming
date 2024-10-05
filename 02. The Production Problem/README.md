@@ -7,7 +7,7 @@ This time we're gonna look at a model in which:
 - limited resources (like budget),
 - and units of each resource required for each product (cost of each soldier).
 
-in the TheWalletProblem.dzn file I've included data from previous example.
+in the TheWalletProblem.dzn file I've included data from previous example. Fun fact: Coursera has a wrong solution because it ignores the fact that the number of soldiers is limited.
 
 # Different example
 
@@ -27,4 +27,4 @@ Resources:
 | -- | -- | -- | -- |
 | 5000 | 7500 | 4000 | 3000 |
 
-Cool. Now the data is in the TheWeaponProblem.dzn file. 
+The data is in the TheWeaponProblem.dzn file.
