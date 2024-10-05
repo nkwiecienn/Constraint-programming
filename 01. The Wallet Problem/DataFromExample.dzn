@@ -1,0 +1,5 @@
+budget = 10000;
+village_names = ["Feng", "Liu", "Zhao", "Jian"];
+village_strengths = [6, 10, 8, 40];
+village_costs = [13, 21, 17, 100];
+village_sizes = [1000, 400, 500, 150];
