@@ -1,6 +1,6 @@
 # The Wallet Problem
 This the Four Villages Problem from the Coursera Course. The problem goes:
-the King of China wants to form an army and has to recruit soldiers from four villages and has the budget of $10000. Each village has a limited amout of soldiers, unique prize and strenght:
+the King of China wants to form an army and has to recruit soldiers from four villages. He has the budget of $10000. Each village has a limited amout of soldiers, unique price and strenght:
 
 | | Feng | Liu | Zhao | Jian |
 |---|---|---|---|---|
@@ -23,4 +23,4 @@ solve maximize 6*F + 10*L + 8*Z + 40*J;
 
 output ["F = \(F), L = \(L), Z = \(Z), J = \(J)"];
 ```
-My goal is to make a general solution to this problem.
+My goal is to create a general solution to this problem.
